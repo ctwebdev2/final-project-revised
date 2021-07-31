@@ -1,0 +1,44 @@
+// globally scoped variables
+// font variables
+$font-family: ‘Source Sans Pro’, sans-serif;
+$uppercase: uppercase;
+$size-s: 1.8rem;
+$weight: 300;
+$size-l: 2.4rem;
+$size-p: 0.8rem;
+
+// colors
+$colors: (
+  accent: #fc851e,
+  btn-accent: #ffffff,
+  footer-bg: #ebebeb,
+  text-primary: #000,
+  text-secondary: #7f7f7f,
+  body-txt-color: white,
+  button-background: orange,
+  button-txt: gray,
+);
+
+// Layout
+$width: 300px;
+$margin: 1rem 0.5rem;
+$margin-side: 0.5rem 0;
+$margin-circle: 0.5rem;
+$width-circle: 130px;
+$center: center;
+$left: left;
+$max: 100%;
+$nowrap: nowrap;
+$none: 0;
+
+// border
+$circle: 50%;
+
+// media query breakpoints
+$breakpoint-mobile-lg: 450px;
+$breakpoint-tablet-sm: 650px;
+$breakpoint-tablet-med: 850px;
+$breakpoint-tablet-lg: 985px;
+$breakpoint-desktop-sm: 1024px;
+$breakpoint-desktop-med: 1200px;
+$breakpoint-desktop-lg: 1450px;

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,oBAAoB,CAAC;EACjB,IAAI,EAAE,IAAI;EACV,KAAK,EAAE,MAAM;CAChB",
+    "sources": [
+        "../dev/scss/styles.scss",
+        "../dev/scss/_hero-slideshow.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

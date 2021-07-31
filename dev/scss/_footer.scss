@@ -1,0 +1,95 @@
+a {
+  @include a-style;
+  color: rgb(92, 92, 92);
+}
+
+a:visited {
+  color: rgb(92, 92, 92);
+}
+
+a:active {
+  border: 3px solid black;
+}
+
+ul {
+  @include ul-style;
+}
+
+#email-text {
+  color: black;
+}
+
+.footer-top {
+  padding: 3rem 1rem;
+}
+
+.fa-arrow-up,
+.top-arrow a {
+  color: map-get($colors, accent);
+}
+
+.fa-envelope {
+  font-size: 2rem;
+  color: map-get($colors, text-primary);
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.email p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.social-links {
+  @media (min-width: 500px) {
+    @include flex-row;
+    justify-content: space-between;
+  }
+}
+.social-links svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.social-links ul {
+  display: flex;
+}
+
+.social-links li {
+  padding: 2rem 0.25rem;
+}
+
+.site-map ul {
+  padding: 2rem 1.5rem;
+}
+
+.site-map li {
+  padding: 0.5rem;
+}
+
+.site-map {
+  background-color: map-get($colors, footer-bg);
+  border-top: 1px solid black;
+}
+
+.ft-flex {
+  width: 10rem;
+  justify-content: flex-start;
+
+  @media (min-width: 340px) {
+    width: 50%;
+  }
+  @media (min-width: 500px) {
+    width: 25%;
+  }
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

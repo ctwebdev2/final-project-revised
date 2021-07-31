@@ -1,0 +1,59 @@
+// general styles => send to global _body
+
+a:visited {
+  color: rgb(92, 92, 92);
+}
+
+a:active {
+  border: 3px solid black;
+}
+
+// news styles
+
+.news-wrapper {
+  position: relative;
+}
+
+.news-wrapper h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+.news-slider {
+  padding: 2rem;
+}
+
+.news-slider img {
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.arrow-p {
+  position: absolute;
+  top: 55%;
+  left: 30px;
+  font-size: 1.5rem;
+  color: map-get($colors, accent);
+  cursor: pointer;
+  z-index: 3;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+.arrow-n {
+  position: absolute;
+  top: 55%;
+  right: 30px;
+  font-size: 1.5rem;
+  color: map-get($colors, accent);
+  cursor: pointer;
+  z-index: 3;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}

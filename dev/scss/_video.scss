@@ -1,0 +1,80 @@
+.vid-img {
+  position: relative;
+}
+
+.vidoverlay-txt {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: $uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 80%;
+  text-shadow: #ffffff 2px 2px 0;
+
+  @media (min-width: 450px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 600px) {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 700px) {
+    font-size: 3rem;
+  }
+  @media (min-width: 1050px) {
+    font-size: 3.5rem;
+  }
+}
+
+button .vid-play {
+  display: none;
+}
+
+.fa-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: map-get($colors, accent);
+  text-align: center;
+  cursor: pointer;
+
+  @media (min-width: 450px) {
+    font-size: 4rem;
+  }
+  @media (min-width: 600px) {
+    font-size: 5rem;
+  }
+  @media (min-width: 700px) {
+    font-size: 6rem;
+  }
+  @media (min-width: 1050px) {
+    font-size: 8rem;
+  }
+}
+
+.modal-close {
+  color: map-get($colors, btn-accent);
+  background-color: map-get($colors, text-primary);
+  width: 4rem;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  z-index: 3;
+  border-style: none;
+}
+
+.modal-close:hover {
+  background-color: map-get($colors, accent);
+}
+
+.active-v {
+  border: rgba(25, 154, 252, 0.66) 3px solid;
+  border-radius: 2px;
+}
